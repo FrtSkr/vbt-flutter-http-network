@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../model/post_model.dart';
 
 class PostService {
-//Datamıza etişecek olan metodumuz
+//Datamıza erişecek olan metodumuz
   Future<List<PostModel>> fetchPost() async {
     final response = await http
         .get(Uri.parse("https://jsonplaceholder.typicode.com/posts?userId=1"));
