@@ -24,3 +24,7 @@
 //     expect(response, isNotNull);
 //   });
 // }
+
+
+/*Vexana ile testimizi yazdık fakat http paketi eklediğimiz için vexana'yı devredışı bıraktık. Çünkü vexana, http üzerine yazılmış
+bir pakettir. Bu iki paketi projeye dahil edersek çakışmalar gerçekleşir.*/
