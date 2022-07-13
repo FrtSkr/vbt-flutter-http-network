@@ -34,10 +34,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  vexana: ^2.8.1
+ # vexana: ^2.8.1
   #Yazdığımız servis içerisindeki hataları loglamaya yarayan paket.
   pretty_dio_logger: ^1.1.1
-
+  # State management için kullanacağımız paket.
+  http: ^0.13.4
 dev_dependencies:
   flutter_test:
     sdk: flutter
