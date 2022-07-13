@@ -1,5 +1,12 @@
 import 'dart:convert';
 
+//FromJson metodu decode ederek çözer.
+List<PostModel> postModelFromJson(String str) =>
+    List<PostModel>.from(json.decode(str).map((x) => PostModel.fromJson(x)));
+//ToJson metodu ise encode ederek ekran işlemlerini yapmamızı sağlar.
+String postModelToJson(List<PostModel> data) =>
+    json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+
 class PostModel {
   PostModel({
     this.userId,
